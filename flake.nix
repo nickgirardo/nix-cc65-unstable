@@ -26,8 +26,8 @@
           src = pkgs.fetchFromGitHub {
             owner = "cc65";
             repo = "cc65";
-            rev = "03d824e13b5e01d23d19c0150081a3024b539acd";
-            sha256 = "sha256-/mR85D6hMytjICIH2CLCNsRFdWz/4LqehWhYNAKIctM=";
+            rev = "6efe447d14a31e98cb14e8a3d45621e844c89ebe";
+            sha256 = "sha256-aMG69Pj1CD0YkdTB60CDyWnsbu56B4HH+fZPtUDLBeU=";
           };
         
           makeFlags = [ "PREFIX=${placeholder "out"}" ];
